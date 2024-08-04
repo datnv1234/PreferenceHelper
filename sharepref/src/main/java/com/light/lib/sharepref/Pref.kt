@@ -1,9 +1,8 @@
-package com.light.lib.prefhelper
+package com.light.lib.sharepref
 
 import android.content.Context
 import android.content.SharedPreferences
 import android.content.SharedPreferences.OnSharedPreferenceChangeListener
-import com.light.lib.Pref.R
 import org.json.JSONArray
 
 /**

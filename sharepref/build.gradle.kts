@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.light.lib.Pref"
+    namespace = "com.light.lib.sharepref"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.light.lib.Pref"
+        applicationId = "com.light.lib.sharepref"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -36,14 +36,14 @@ android {
 }
 
 dependencies {
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
 
     implementation (libs.gson)
-    implementation(project(":sharepref"))
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
-
 }
