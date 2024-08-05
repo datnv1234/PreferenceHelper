@@ -3,7 +3,6 @@ package com.light.lib.prefhelper
 import android.content.Context
 import android.content.SharedPreferences
 import android.content.SharedPreferences.OnSharedPreferenceChangeListener
-import com.light.lib.Pref.R
 import org.json.JSONArray
 
 /**

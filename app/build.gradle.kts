@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.light.lib.Pref"
+    namespace = "com.light.lib.prefhelper"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.light.lib.Pref"
+        applicationId = "com.light.lib.prefhelper"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -42,6 +42,8 @@ dependencies {
 
     implementation (libs.gson)
     implementation(project(":sharepref"))
+    implementation(libs.androidx.activity)
+    implementation(libs.androidx.constraintlayout)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
